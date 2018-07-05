@@ -3,7 +3,6 @@ plugins {
     id 'application'
 }
 
-// Define the main class for the application
 mainClassName = 'App'
 
 dependencies {
