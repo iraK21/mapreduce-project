@@ -4,7 +4,7 @@ import org.apache.commons.text.StringEscapeUtils;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
-import utils.XMLParser;
+import util.XMLParser;
 
 import java.io.IOException;
 import java.util.Map;

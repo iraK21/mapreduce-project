@@ -3,7 +3,7 @@ package summarization.counting;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import utils.XMLParser;
+import util.XMLParser;
 
 import java.io.IOException;
 import java.util.Arrays;

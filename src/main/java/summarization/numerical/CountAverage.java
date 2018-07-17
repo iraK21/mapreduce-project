@@ -4,7 +4,7 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
-import utils.XMLParser;
+import util.XMLParser;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -33,8 +33,7 @@ public class CountAverage {
             String date = map.get("CreationDate");
             String comment = map.get("Text");
 
-            if(date == null || comment == null)
-                return;
+            if(date == null || comment == null) return;
 
             Date creationDate = new Date();
 
